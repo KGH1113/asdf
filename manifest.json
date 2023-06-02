@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "New Tab for Developer",
+    "description": "No boring new tab, the new tab for the Developer!",
+    "version": "1.0",
+    "icons": {
+        "16": "images/icon.png",
+        "32": "images/icon.png",
+        "48": "images/icon.png",
+        "128": "images/icon.png"
+    },
+    "action": {
+        "default_icon": "images/icon.png",
+        "default_title": "New Tab for Developer",
+        "default_popup": "popup/popup.html"
+    },
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    },
+    "content_security_policy": {
+        "extension_pages": "script-src 'self'; object-src 'self';",
+        "sandbox": "sandbox allow-scripts allow-forms allow-popups allow-modals; script-src 'self' 'unsafe-inline' 'unsafe-eval'; child-src 'self';"
+    }
+}

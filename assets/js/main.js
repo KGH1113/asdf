@@ -1,0 +1,1 @@
+window.open('https://rococo-madeleine-3f0ba4.netlify.app/', '_self');

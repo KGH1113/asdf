@@ -1,0 +1,56 @@
+html {
+    width: 200px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+/* CSS styling for the buttons */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.btn i {
+    margin-right: 5px;
+}
+
+.github-btn {
+    background-color: #333;
+}
+    
+.stackoverflow-btn {
+    background-color: #f48024;
+}
+    
+.replit-btn {
+    background-color: #4B0082;
+}
+    
+.chatgpt-btn {
+    background-color: #0d6efd;
+}
+    
+.instagram-btn {
+    background-color: #C13584;
+}
+
+    /* Hover animation */
+.btn:hover {
+    background-color: #555;
+}
+
+    /* Hover animation for icons */
+.btn i:hover {
+    transform: rotate(360deg);
+    transition: transform 0.5s ease;
+}
