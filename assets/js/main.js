@@ -1,1 +1,4 @@
-window.open('https://rococo-madeleine-3f0ba4.netlify.app/', '_self');
+const savedString = localStorage.getItem('savedString');
+console.log('Retrieved string:', savedString);
+
+window.open(savedString, '_self');
